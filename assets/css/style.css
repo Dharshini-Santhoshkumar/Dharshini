@@ -1125,7 +1125,7 @@ main {
 .mapbox {
   position: center;
   height: 200px;
-  width: 80%;
+  width: 100%;
   border-radius: 16px;
   margin-bottom: 30px;
   border: 1px solid var(--jet);
@@ -1133,7 +1133,8 @@ main {
 }
 
 .mapbox figure { 
-  height: 130%; 
+  height: 130%;
+  object-fit:contain;
   position:center;
 }
 
